@@ -4,6 +4,7 @@ A operating system simulation program
 The project is a simulation of an operating system. Your program works together with an existing program (SOS) that simulates a job stream. SOS feeds your program a series of jobs and job requests; like a real operating system, your program must field those requests and handle the life cycle of each of the jobs, from system entry to termination.
 
 This project features multiple schedulers, but it uses the multilevel feedback queue as it produces the best result.
+There is another unreleased version of this where the multilevel feedback queue is optimized to complete an additional 2 jobs. Producing a result of 451/458 jobs completed. However that version only features the multilevel feedback queue scheduler.
 
 Reasons why you're browsing this
 1. You're just browsing around and stumbled upon this. Feel free to look around.
